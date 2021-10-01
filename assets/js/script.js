@@ -2,7 +2,7 @@ var rootEl = $('#root');
 var day = document.querySelector("#currentDay");
 var saveBtns = document.querySelector(".time-block")
 
-var currentTime = moment().format("MMM Do, YYYY, hh:mm");
+var currentTime = moment().format("MMM Do, YYYY, hh:mm AA");
 var todayHour = moment().format("H");
 var todayDay = moment().format("MMDDYYYY");
 
